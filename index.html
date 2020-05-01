@@ -1,14 +1,86 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <link rel="stylesheet" href="./dist/main.css" />
-    <title>Document</title>
-  </head>
 
-  <body>
-    <script src="./dist/main.js"></script>
-  </body>
-</html>
+<meta charset="utf-8" />
+
+<head>
+  <title>Price of Winning</title>
+  <link rel="icon" href="/images/favicon.ico" />
+
+  <link rel="stylesheet" href="./dist/main.css" />
+  <script src="https://d3js.org/d3.v4.min.js"></script>
+
+  <link
+    href="https://fonts.googleapis.com/css2?family=Vidaloka&display=swap"
+    rel="stylesheet"
+  />
+
+  <script src="lib/payroll.js" charset="utf-8"></script>
+
+</head>
+
+<body class="all">
+  <div class="header">
+    <div class="header-left">
+      <img src="/images/a-icon.png" />
+      <p>Price of Winning</p>
+    </div>
+  </div>
+
+  <div class="parallax">
+    <div class="info">
+      <div class="info-title">Price of Winning</div>
+      <div class="description">
+        This is a data Visualization showcasing how much each of the thirty MLB ballclubs spent on their 2019 player salary. Also details how much each team spent per win. Highlights which teams' investements paid off and which did not. It will also showcase which players where the most valuable in terms of how many wins they would add to any ballclub. While also comparing that stat against their salary.
+      </div>
+    </div>
+  </div>
+
+  <div class="logo-chart">
+    <span id="payroll-header">MLB: Payroll By Team 2019</span>
+
+    <div class="payroll-container">
+      <div id="payroll"></div>
+    </div>
+
+    <div class="logo-buttons">
+      <!-- change this -->
+
+      <button id="cost-win-0">Cost Per Win</button>
+      <button id="mlb-1">MLB</button>
+      <button id="al-2">American League</button>
+      <button id="nl-3">National League</button>
+      <button id="al-east-4">AL East</button>
+      <button id="al-central-5">AL Central</button>
+      <button id="al-west-6">AL West</button>
+      <button id="nl-east-7">NL East</button>
+      <button id="nl-central-8">NL Central</button>
+      <button id="nl-west-9">NL West</button>
+    </div>
+  </div>
+
+  
+
+  <div class="author">
+    <div class="author-info">
+      <p>Data Visualization Created By</p>
+        <span>Edward Trinidad</span>
+      </a>
+      <p>
+        I am a Software Engineer with experience in React, Redux, and Ruby on Rails.
+        <br />
+        Loves baseball, tech, travel, and the outdoors. Based in New York City.
+      </p>
+      <div class="icons">
+        <a
+          href="https://github.com/etrinidad132/"
+          rel="noopener noreferrer"
+          target="_blank"
+        >
+          <img src="/images/github.png" alt="" />
+        </a>
+        </a>
+      </div>
+    </div>
+    <img class="profile-pic" src="/images/profile.JPG" alt="" />
+  </div>
+</body>

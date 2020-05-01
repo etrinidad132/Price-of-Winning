@@ -1,0 +1,73 @@
+$gun-metal: #212738;
+$bitter-red: #F97068;
+$green-yellow: #D1D646;
+$cultured-green-gray: rgb(35, 63, 47);
+$sky-blue: #57C4E5;
+
+.payroll-container {
+    display: grid;
+    
+}
+
+#payroll {
+    justify-self: center;
+}
+
+.logo-buttons {
+    display: grid;
+    grid-template-columns: repeat(5, auto);
+    justify-self: center;
+    z-index: 1;
+    align-self: start;
+    grid-gap: 30px;
+    
+}
+
+.logo-chart {
+    height: 1000px;
+    display: grid;
+    grid-template-rows: 100px 680px 100px;
+
+    button {
+        color: $gun-metal;
+        padding: 10px 17px;
+        font-family: 'Vidaloka', serif;
+        // font-family: 'Bree Serif', serif;
+        font-size: 15px;
+        border: 2px solid $gun-metal;
+        border-radius: 4px;
+        cursor: pointer;
+        background: transparent;
+        
+        
+    }
+    
+    button:focus {
+        color: white;
+        border: 2px solid $gun-metal;
+        background-color: $gun-metal;
+    }
+
+    button:focus {
+        outline:0
+    }
+
+
+    span {
+        color: darkslategrey;
+        font-size: 22px;
+        justify-self: center;
+        align-self: end;
+    }
+}
+
+text {
+    font-family: 'Vidaloka', serif;
+    // font-family: 'Bree Serif', serif;
+    color: darkslategray;
+}
+
+.Line {
+    color: crimson;
+    background-color: crimson;
+}
