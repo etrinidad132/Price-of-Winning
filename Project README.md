@@ -1,4 +1,4 @@
-# JavaScript-Project
+# Price-of-Winning
 
 1. create your new project directory and `cd` into it 
 2. `git init`
