@@ -2,3 +2,11 @@ node_modules
 .DS_Store
 src/.DS_Store
 testing
+src/styles/reset.css.map
+src/styles/payroll.css.map
+src/styles/lines.css.map
+src/styles/index.css.map
+src/styles/home.css.map
+dist/main.js
+dist/main.css
+assets/css/home.css.map

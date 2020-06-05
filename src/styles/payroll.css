@@ -1,0 +1,72 @@
+.payroll-container {
+  display: -ms-grid;
+  display: grid;
+}
+
+#payroll {
+  -ms-grid-column-align: center;
+      justify-self: center;
+}
+
+.logo-buttons {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (auto)[5];
+      grid-template-columns: repeat(5, auto);
+  -ms-grid-column-align: center;
+      justify-self: center;
+  z-index: 1;
+  -ms-grid-row-align: start;
+      align-self: start;
+  grid-gap: 30px;
+}
+
+.logo-chart {
+  height: 1000px;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-rows: 100px 680px 100px;
+      grid-template-rows: 100px 680px 100px;
+}
+
+.logo-chart button {
+  color: #212738;
+  padding: 10px 17px;
+  font-family: 'Vidaloka', serif;
+  font-size: 15px;
+  border: 2px solid #212738;
+  border-radius: 4px;
+  cursor: pointer;
+  background: transparent;
+}
+
+.logo-chart button:focus {
+  color: white;
+  border: 2px solid #212738;
+  background-color: #212738;
+}
+
+.logo-chart button:focus {
+  outline: 0;
+}
+
+.logo-chart span {
+  color: darkslategrey;
+  font-size: 22px;
+  -ms-grid-column-align: center;
+      justify-self: center;
+  -ms-flex-item-align: end;
+      -ms-grid-row-align: end;
+      align-self: end;
+}
+
+text {
+  font-family: 'Vidaloka', serif;
+  color: darkslategray;
+}
+
+.Line {
+  color: crimson;
+  background-color: crimson;
+}
+/*# sourceMappingURL=payroll.css.map */
