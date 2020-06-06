@@ -9,11 +9,13 @@ $sky-blue: #57C4E5;
 $sky-blue-opaq: rgba(87, 196, 229, 0.397);
 
 .all {
-  font-family: "Vidaloka", serif;
+  // font-family: "Vidaloka", serif;
+ font-family: 'Roboto', sans-serif;
 }
 
 .header {
-  font-family: "Vidaloka", serif;
+  // font-family: "Vidaloka", serif;
+ font-family: 'Roboto', sans-serif;
   font-weight: 700;
   background-color: white;
   display: grid;
@@ -94,7 +96,7 @@ $sky-blue-opaq: rgba(87, 196, 229, 0.397);
   display: grid;
   grid-template-columns: 1fr 3fr;
   color: white;
-  text-shadow: 4px 3px $cultured-green-gray;
+  text-shadow: 3px 2px $cultured-green-gray;
   padding: 0 29%;
   grid-gap: 9%;
   background-color: $sky-blue;

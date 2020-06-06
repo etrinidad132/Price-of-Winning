@@ -31,7 +31,8 @@ $sky-blue: #57C4E5;
     button {
         color: $gun-metal;
         padding: 10px 17px;
-        font-family: 'Vidaloka', serif;
+        // font-family: 'Vidaloka', serif;
+        font-family: 'Roboto', sans-serif;
         // font-family: 'Bree Serif', serif;
         font-size: 15px;
         border: 2px solid $gun-metal;
@@ -62,7 +63,8 @@ $sky-blue: #57C4E5;
 }
 
 text {
-    font-family: 'Vidaloka', serif;
+    // font-family: 'Vidaloka', serif;
+    font-family: 'Roboto', sans-serif;
     // font-family: 'Bree Serif', serif;
     color: darkslategray;
 }
