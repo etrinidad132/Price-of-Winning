@@ -27,7 +27,7 @@
     "fibers": "^4.0.3",
     "file-loader": "^5.1.0",
     "mini-css-extract-plugin": "^0.8.2",
-    "node-sass": "^4.14.0",
+    "node-sass": "^7.0.0",
     "postcss-loader": "^3.0.0",
     "sass": "^1.26.5",
     "sass-loader": "^8.0.2",
